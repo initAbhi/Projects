@@ -1,0 +1,65 @@
+# Node.js modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+out/
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Editor files
+*.swp
+*.swo
+*.swn
+*.bak
+.vscode/
+.idea/
+
+# Coverage directory
+coverage/
+
+# Debug files
+*.pid
+*.seed
+*.dump
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.sqlite
+*.tar.gz
+*.tgz
+
+# Specific to React
+client/.next/
+client/.cache/
+client/.parcel-cache/
+
+# MongoDB specific
+*.lock
+*.log
+data/
+dump/
+
+# Ignore npm and yarn lock if using one
+package-lock.json
+yarn.lock
