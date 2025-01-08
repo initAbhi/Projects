@@ -26,7 +26,7 @@ const createUser = asyncHandler(async (req, res) => {
       });
     } catch (error) {
       res.status(400);
-      throw new Error("invalid user data :", error);
+      throw new Error("invalid user data :", error)
     }
     // res.send("Done");
   }
