@@ -30,27 +30,37 @@ const createUser = asyncHandler(async (req, res) => {
     }
     // res.send("Done");
   }
+  // res.send("Done");
 });
 
 const loginUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
-
-  const existingUser = await User.findOne({ email });
-  if (existingUser) {
-    const isPasswordValid = await bcrypt.compare(
-      password,
-      existingUser.password
-    );
-    if (isPasswordValid) {
-      createToken(res, existingUser._id);
-      res.status(201).json({
-        _id: existingUser._id,
-        username: existingUser.username,
-        email: existingUser.email,
-        isAdmin: existingUser.isAdmin,
-      });
-    }
+  if (!email || !password) {
+    throw new Error("Please fill all the inputs");
   }
+  ``;
+  const user = await User.findOne({ email });
+  if (!user) {
+    res.status(400).send("Invalid email or password");
+  }
+  const isMatch = await bcrypt.compare(password, user.password);
+  if (!isMatch) {
+    res.status(400).send("Invalid email or password");
+  }
+  createToken(res, user._id);
+  res.status(200).json({
+    _id: user._id,
+    username: user.username,
+    email: user.email,
+    isAdmin: user.isAdmin,
+  });
+  return;
 });
 
-export { createUser, loginUser };
+const logoutUser = asyncHandler(async (req, res) => {
+  res.clearCookie('jwt');
+  res.status(200).json({ message: "Logout sucessfully" });
+
+});
+
+export { createUser, loginUser, logoutUser };
