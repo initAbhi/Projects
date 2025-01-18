@@ -13,4 +13,6 @@ const generateToken = (res, userId) => {
   return token;
 };
 
+
+
 export default generateToken;
