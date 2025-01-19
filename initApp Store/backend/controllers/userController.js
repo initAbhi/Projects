@@ -26,7 +26,7 @@ const createUser = asyncHandler(async (req, res) => {
       });
     } catch (error) {
       res.status(400);
-      throw new Error("invalid user data :", error)
+      throw new Error("invalid user data :", error);
     }
     // res.send("Done");
   }
@@ -58,9 +58,12 @@ const loginUser = asyncHandler(async (req, res) => {
 });
 
 const logoutUser = asyncHandler(async (req, res) => {
-  res.clearCookie('jwt');
+  res.clearCookie("jwt");
   res.status(200).json({ message: "Logout sucessfully" });
-
 });
+
+const getAllUsers = asyncHandler(async (req, res) => {
+  
+})
 
 export { createUser, loginUser, logoutUser };
