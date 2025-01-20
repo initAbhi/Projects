@@ -1,6 +1,6 @@
 import express from "express";
 // import { createUser } from "../controllers/userController";
-import { createUser, loginUser,logoutUser } from "../controllers/userController.js";
+import { createUser, loginUser,logoutUser, getAllUsers } from "../controllers/userController.js";
 import { authenticate, authorizeAdmin } from "../middlewares/authMiddleware.js";
 const router = express.Router();
 

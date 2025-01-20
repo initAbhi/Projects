@@ -18,6 +18,7 @@ const authenticate = asyncHandler(async (req, res,next) => {
         res.status(401)
         throw  new Error("not authorized, no token")
     }
+    // next()
 
 });
 
@@ -30,6 +31,8 @@ const authorizeAdmin = (req,res, next) => {
     }else{
         res.status(401).send("Not authorized as an admin")
     }
+    next()
+
 }
 
 
