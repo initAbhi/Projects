@@ -38,14 +38,16 @@ const loginUser = asyncHandler(async (req, res) => {
   if (!email || !password) {
     throw new Error("Please fill all the inputs");
   }
-  ``;
+
   const user = await User.findOne({ email });
   if (!user) {
-    res.status(400).send("Invalid email or password");
+    throw new Error("Invalid email or password");
+    // res.status(400).send("Invalid email or password");
   }
   const isMatch = await bcrypt.compare(password, user.password);
   if (!isMatch) {
-    res.status(400).send("Invalid email or password");
+    throw new Error("Invalid email or password");
+    // res.status(400).send("Invalid email or password");
   }
   createToken(res, user._id);
   res.status(200).json({
@@ -64,8 +66,12 @@ const logoutUser = asyncHandler(async (req, res) => {
 
 const getAllUsers = asyncHandler(async (req, res) => {
   const allUsers = await User.find({})
-  console.log(allUsers)
-  // res.json(allUsers)
+  // console.log(allUsers)
+  res.json(allUsers)
 })
 
-export { createUser, loginUser, logoutUser, getAllUsers };
+const getUserProfile = asyncHandler(async (req,res) => {
+  
+})
+
+export { createUser, loginUser, logoutUser, getAllUsers,getUserProfile };
