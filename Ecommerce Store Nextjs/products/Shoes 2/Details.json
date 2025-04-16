@@ -1,0 +1,63 @@
+{
+  "id": 89,
+  "title": "Nike Baseball Cleats",
+  "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+  "category": "mens-shoes",
+  "price": 79.99,
+  "discountPercentage": 11.4,
+  "rating": 4.01,
+  "stock": 14,
+  "tags": [
+    "footwear",
+    "sports cleats"
+  ],
+  "brand": "Nike",
+  "sku": "81LRTRP5",
+  "weight": 7,
+  "dimensions": {
+    "width": 14.83,
+    "height": 19.16,
+    "depth": 28.98
+  },
+  "warrantyInformation": "No warranty",
+  "shippingInformation": "Ships overnight",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "Very happy with my purchase!",
+      "date": "2024-05-23T08:56:21.623Z",
+      "reviewerName": "William Gonzalez",
+      "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+    },
+    {
+      "rating": 2,
+      "comment": "Not worth the price!",
+      "date": "2024-05-23T08:56:21.623Z",
+      "reviewerName": "Sophia Brown",
+      "reviewerEmail": "sophia.brown@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Very satisfied!",
+      "date": "2024-05-23T08:56:21.623Z",
+      "reviewerName": "Gabriel Mitchell",
+      "reviewerEmail": "gabriel.mitchell@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "7 days return policy",
+  "minimumOrderQuantity": 3,
+  "meta": {
+    "createdAt": "2024-05-23T08:56:21.623Z",
+    "updatedAt": "2024-05-23T08:56:21.623Z",
+    "barcode": "0517654748946",
+    "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+  },
+  "images": [
+    "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/1.png",
+    "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/2.png",
+    "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/3.png",
+    "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/4.png"
+  ],
+  "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png"
+}

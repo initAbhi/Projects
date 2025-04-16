@@ -1,0 +1,59 @@
+{
+  "id": 97,
+  "title": "Rolex Datejust",
+  "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+  "category": "mens-watches",
+  "price": 10999.99,
+  "discountPercentage": 9.69,
+  "rating": 4.94,
+  "stock": 11,
+  "tags": ["watches", "luxury watches"],
+  "brand": "Rolex",
+  "sku": "86V20NWJ",
+  "weight": 5,
+  "dimensions": {
+    "width": 9.68,
+    "height": 7.29,
+    "depth": 5.67
+  },
+  "warrantyInformation": "6 months warranty",
+  "shippingInformation": "Ships in 3-5 business days",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "Highly impressed!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Max Russell",
+      "reviewerEmail": "max.russell@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Would buy again!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Jonathan Pierce",
+      "reviewerEmail": "jonathan.pierce@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Awesome product!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Asher Scott",
+      "reviewerEmail": "asher.scott@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "90 days return policy",
+  "minimumOrderQuantity": 1,
+  "meta": {
+    "createdAt": "2024-05-23T08:56:21.624Z",
+    "updatedAt": "2024-05-23T08:56:21.624Z",
+    "barcode": "4957618378388",
+    "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+  },
+  "images": [
+    "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Datejust/1.png",
+    "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Datejust/2.png",
+    "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Datejust/3.png"
+  ],
+  "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Datejust/thumbnail.png"
+}

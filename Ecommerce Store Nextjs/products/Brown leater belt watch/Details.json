@@ -1,0 +1,62 @@
+{
+      "id": 93,
+      "title": "Brown Leather Belt Watch",
+      "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+      "category": "mens-watches",
+      "price": 89.99,
+      "discountPercentage": 15.01,
+      "rating": 4.47,
+      "stock": 69,
+      "tags": [
+        "watches",
+        "leather watches"
+      ],
+      "brand": "Fashion Timepieces",
+      "sku": "WGZ21MSA",
+      "weight": 10,
+      "dimensions": {
+        "width": 18.39,
+        "height": 10.82,
+        "depth": 10.52
+      },
+      "warrantyInformation": "3 months warranty",
+      "shippingInformation": "Ships in 1 week",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Very dissatisfied!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Oscar Powers",
+          "reviewerEmail": "oscar.powers@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Fast shipping!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Eli Ward",
+          "reviewerEmail": "eli.ward@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Highly impressed!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Stella Hughes",
+          "reviewerEmail": "stella.hughes@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 10,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.624Z",
+        "updatedAt": "2024-05-23T08:56:21.624Z",
+        "barcode": "9559180055872",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/mens-watches/Brown%20Leather%20Belt%20Watch/1.png",
+        "https://cdn.dummyjson.com/products/images/mens-watches/Brown%20Leather%20Belt%20Watch/2.png",
+        "https://cdn.dummyjson.com/products/images/mens-watches/Brown%20Leather%20Belt%20Watch/3.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Brown%20Leather%20Belt%20Watch/thumbnail.png"
+    }

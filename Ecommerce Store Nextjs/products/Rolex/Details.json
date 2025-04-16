@@ -1,0 +1,59 @@
+{
+  "id": 95,
+  "title": "Rolex Cellini Date Black Dial",
+  "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+  "category": "mens-watches",
+  "price": 8999.99,
+  "discountPercentage": 14.28,
+  "rating": 3.61,
+  "stock": 84,
+  "tags": ["watches", "luxury watches"],
+  "brand": "Rolex",
+  "sku": "J3GPKQW0",
+  "weight": 6,
+  "dimensions": {
+    "width": 12.17,
+    "height": 27.99,
+    "depth": 10.36
+  },
+  "warrantyInformation": "5 year warranty",
+  "shippingInformation": "Ships in 1 month",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "Very pleased!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Gavin Stanley",
+      "reviewerEmail": "gavin.stanley@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Highly impressed!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Stella Hughes",
+      "reviewerEmail": "stella.hughes@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Would buy again!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Paisley Bell",
+      "reviewerEmail": "paisley.bell@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "30 days return policy",
+  "minimumOrderQuantity": 1,
+  "meta": {
+    "createdAt": "2024-05-23T08:56:21.624Z",
+    "updatedAt": "2024-05-23T08:56:21.624Z",
+    "barcode": "8917585155737",
+    "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+  },
+  "images": [
+    "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Date%20Black%20Dial/1.png",
+    "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Date%20Black%20Dial/2.png",
+    "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Date%20Black%20Dial/3.png"
+  ],
+  "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Date%20Black%20Dial/thumbnail.png"
+}

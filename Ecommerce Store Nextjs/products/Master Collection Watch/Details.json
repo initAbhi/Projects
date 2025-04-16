@@ -1,0 +1,59 @@
+{
+  "id": 94,
+  "title": "Longines Master Collection",
+  "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+  "category": "mens-watches",
+  "price": 1499.99,
+  "discountPercentage": 0.64,
+  "rating": 2.64,
+  "stock": 65,
+  "tags": ["watches", "luxury watches"],
+  "brand": "Longines",
+  "sku": "LA7B9XEV",
+  "weight": 2,
+  "dimensions": {
+    "width": 5.83,
+    "height": 12.48,
+    "depth": 7.65
+  },
+  "warrantyInformation": "1 month warranty",
+  "shippingInformation": "Ships in 3-5 business days",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 4,
+      "comment": "Great product!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Jack Ward",
+      "reviewerEmail": "jack.ward@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Highly recommended!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Victoria McDonald",
+      "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Highly impressed!",
+      "date": "2024-05-23T08:56:21.624Z",
+      "reviewerName": "Mia Rodriguez",
+      "reviewerEmail": "mia.rodriguez@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "60 days return policy",
+  "minimumOrderQuantity": 1,
+  "meta": {
+    "createdAt": "2024-05-23T08:56:21.624Z",
+    "updatedAt": "2024-05-23T08:56:21.624Z",
+    "barcode": "1865008250672",
+    "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+  },
+  "images": [
+    "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/1.png",
+    "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/2.png",
+    "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/3.png"
+  ],
+  "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/thumbnail.png"
+}
